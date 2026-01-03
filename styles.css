@@ -8,7 +8,7 @@ body {
   --color-blue: #00acdc;
 }
 
-.header {
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
