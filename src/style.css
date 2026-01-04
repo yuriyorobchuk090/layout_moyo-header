@@ -2,15 +2,12 @@
   --blue: #0af;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: Roboto, sans-serif;
   font-weight: 500;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
@@ -26,7 +23,7 @@ body {
   align-items: center;
 }
 
-.logo img {
+.logo__image {
   display: block;
   width: 40px;
   height: 40px;
@@ -41,7 +38,7 @@ body {
   display: flex;
 }
 
-.nav-list li:not(:last-child) {
+.nav-list__item:not(:last-child) {
   margin-right: 24px;
 }
 
